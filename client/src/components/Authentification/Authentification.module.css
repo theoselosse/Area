@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'LemonMilk';
+    src: local('LemonMilk'), url(../../assets/fonts/CooperHewitt-Book.otf) format('opentype');
+}
+
+body {
+    background-image: url('../../assets/images/bg.webp');
+}
+
+.home_row {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    //justify-content: center;
+}
+
+.home_column {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    //justify-content: center;
+}
+
+.home_block_col {
+    flex: auto;
+    width: 100%;
+    //display: inline-block;
+}
+
+.widget_row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    //justify-content: center;
+    //row-gap: 10%;
+}
+
+.home_block {
+    flex: auto;
+    //width: 75%;
+    max-width: 50%;
+    //display: inline-block;
+}
+
+.widget_block {
+    flex: 1 2 auto;
+    max-width: 50%;
+    //width: 50%;
+    //display: inline-block;
+}
+
+
+.center{
+    margin: auto;
+    width: 50%;
+}
+
+.form_part {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.form_elem {
+    margin: auto;
+    width: 75%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+input, select, textarea{
+    color: black;
+    background-color: #d1d1d1;
+    border-radius: 5px;
+}
+
+textarea:focus, input:focus {
+    color: black;
+}
+
+.bg-secondary {
+    background-color: #bab5ba!important;
+}
+
+.form_state {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+h2, p {
+    font-family: 'LemonMilk';
+}
+
+.header_title {
+    font-size: 1.6em;
+}
